@@ -1,13 +1,3 @@
-# Listas y diccionarios anidados
-## Importante
-aprender a usar el *.gitignore*
-para ignorar la carpeta, dentro del archivo git ignore, solo tenemos que escribir el nombre de las cosas que queremos ignorar.
->las listas son una manera de organizar objetos y los dicionaros también pero con un formato llave y valor
-
-* las listas pueden guardar diccionarios porque son objetos en python y los diccionarios pueden almacenar listas.
-    * se pueden tener listas que almacenen diccionarios  y diccionarios que almacenen listas
-
-```python
 def run():
     my_list = [1, "hello", True, 4.5]
     my_dict = {"firstname":"Carlos", "lastname":"Lara"} 
@@ -31,5 +21,3 @@ def run():
 
 if __name__ == '__main__':
     run()
-
-``` 
