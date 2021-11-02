@@ -200,11 +200,10 @@ dictionary = {i: i**0.5 for i in range(1, 1001) }
 print(dictionary)
 ```
 ###### test:
-1. En un dictionary comprehesions la condición es:
-opcional
+1. En un dictionary comprehension la condición es: opcional.
+2. En un list comprehesion el ciclo es: Obligatorio
+3. ¿Puede tener un diccionario contener listas?: verdadero
 
-2. En un list comprehesions la condición es 
-Obligatoria
 
 # 3. Listas y anidados
 ## Importante

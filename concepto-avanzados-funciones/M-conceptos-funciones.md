@@ -155,3 +155,6 @@ print(all_multiplied)
 * En lugar de tener el código de manera directa, se importa la función reduce del "functools
 * acá lambda lleva dos parametros: a,b y multiplica a*b como resultado.
 * a y b, representa el primer y segundo elemento de la lista
+
+*test*
+1. ¿Qué devuelve la función reduce?: un elemento único
