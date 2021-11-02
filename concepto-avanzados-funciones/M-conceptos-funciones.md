@@ -111,4 +111,47 @@ este es un ejemplo con list comprehesions
 my_list = [1,2,3,4,5]
 squares = [i**2 for i in my_list]
 print(squares)
+
+#output
+[2,4,9,16,25]
 ```
+>Esto hizo que la lista retornara cada numero en el cuadrado de si mismo
+
+* por cada i en esa lista, va a retornar multiplicado al cuadrado
+
+con map es lo mismo
+```python
+my_list = [1,2,3,4,5]
+squares = list(map(lambda x: x**2, my_list))
+#output
+[2,4,9,16,25]
+```
+* list envolviendo todo,
+*  map envolviendo nuestra función como primer parametro y a nuestra lista como segundo parametro 
+*  Lambda recibe x y retorna el resultado de x**2
+*  Esta línea de código recorre cada uno de los elementos de esta lista, los eleva al cuadrado y los va a guardar en una nueva lista llamada square.
+
+### 3. reduce()
+Reduce todos los valores de la lista a un único valor.
+
+Así se haría de la forma tradicional con for
+```python
+my_list = [2,2,2,2,2]
+all_multiplied = 1 
+for i in my_list:
+    all_multiplied *=i
+    print(all_multiplied)
+```
+así se hace con reduce:
+
+```python
+from functools import reduce
+my_list = [2,2,2,2,2]
+all_multiplied = reduce(lambda a,b: a*b, mylist)
+print(all_multiplied)
+#output
+32
+```
+* En lugar de tener el código de manera directa, se importa la función reduce del "functools
+* acá lambda lleva dos parametros: a,b y multiplica a*b como resultado.
+* a y b, representa el primer y segundo elemento de la lista

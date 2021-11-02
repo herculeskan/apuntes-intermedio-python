@@ -6,3 +6,6 @@
 
 2. Alternativas a ciclos: comprehesions
         *[Modulo alternativa a ciclos: Comprehension](M-a-ciclos_comp/Modulo_ciclos_comprehesions.md)
+
+3. Conceptos avanzados se funciones
+        *[Lambda, high order functions](concepto-avanzados-funciones/M-conceptos-funciones.md)
