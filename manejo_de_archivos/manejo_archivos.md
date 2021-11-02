@@ -32,3 +32,8 @@ def write():
 
 def run():
     write()
+```
+***test***
+1. El parámetro `encoding` de la función `open` es: opcional
+2. ¿Qué método se utiliza para escribir una línea en un archivo de texto en Python? write()
+3. ¿Qué letra simboliza el modo de escritura sin sobrescritura de un archivo en Python? A

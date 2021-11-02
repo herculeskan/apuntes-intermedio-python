@@ -199,10 +199,6 @@ if __name__ == "__main__":
 dictionary = {i: i**0.5 for i in range(1, 1001) }
 print(dictionary)
 ```
-###### test:
-1. En un dictionary comprehension la condición es: opcional.
-2. En un list comprehesion el ciclo es: Obligatorio
-3. ¿Puede tener un diccionario contener listas?: verdadero
 
 
 # 3. Listas y anidados
@@ -241,3 +237,7 @@ if __name__ == '__main__':
 
 ```
 
+###### test:
+1. En un dictionary comprehension la condición es: opcional.
+2. En un list comprehesion el ciclo es: Obligatorio
+3. ¿Puede tener un diccionario contener listas?: verdadero

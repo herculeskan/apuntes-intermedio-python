@@ -89,3 +89,8 @@ Es una distribución especial de python, es un software completo para los cient�
 * creamos un entorno, seleccionamos el lenguaje y la versión del mismo
 * A diferencia de pip ya no se instalan dependencias de base 
 * install > all > update index
+
+***test**
+1. seleccione el comando para instalar requests: pip install requests
+2.  ¿Cómo qué comando se activa en un entorno virtual en windows?./venv/Script/activate
+3.  Si actualizamos algún módulo de Python dentro de nuestro entorno virtual ¿esto afecta a otras versiones del mismo módulo dentro de nuestro computador?: no afecta

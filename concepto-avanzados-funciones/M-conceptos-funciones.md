@@ -158,3 +158,5 @@ print(all_multiplied)
 
 *test*
 1. ¿Qué devuelve la función reduce?: un elemento único
+2. ¿Cuál de las siguientes opciones **NO** es una función de orden superior?: open
+3. ¿Cuántos argumentos como máximo tiene una función anónima? : infinitos
