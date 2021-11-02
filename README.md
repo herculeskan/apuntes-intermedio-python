@@ -8,3 +8,5 @@
 
 2. Alternativas a ciclos: comprehesions
 * [Listas y diccionarios anidados](M-a-ciclos_comp/listas-y-anidados.md)
+* [lists comprehesions](M-a-ciclos_comp/comprehesions.md)
+* [Dictionary Comprehesions](M-a-M-a-ciclos_comp/dictionary-comprehensions.mdp/)
